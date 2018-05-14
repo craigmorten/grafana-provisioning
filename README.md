@@ -17,3 +17,7 @@ This will create the docker container instances and configure the dashboard.
 Datasources and dashboards will be created using the new Grafana 5.0 provisioning capability.
 
 Everything else is performed through the Grafana REST API.
+
+## Play
+
+Edit the the `home.json` in the `./grafana/dashboards/` directory and then rerun `make start`. Notice that the home dashboard will have updated with your changes without having to log out.
